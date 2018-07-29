@@ -44,7 +44,7 @@ $this->load->view('template/sidebaradmin');
                 <div class="icon">
                     <i class="ion ion-bag"></i>
                 </div>
-                <a href="<?php echo base_url() ?>index.php/pembelian" class="small-box-footer">Info Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?php echo base_url() ?>pembelian" class="small-box-footer">Info Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div><!-- ./col -->
         <div class="col-lg-3 col-xs-6">
@@ -56,7 +56,7 @@ $this->load->view('template/sidebaradmin');
                 <div class="icon">
                     <i class="ion ion-stats-bars"></i>
                 </div>
-                <a href="<?php echo base_url() ?>index.php/transaksi" class="small-box-footer">Info Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?php echo base_url() ?>transaksi" class="small-box-footer">Info Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div><!-- ./col -->
         <div class="col-lg-3 col-xs-6">
@@ -68,7 +68,7 @@ $this->load->view('template/sidebaradmin');
                 <div class="icon">
                     <i class="ion ion-person-add"></i>
                 </div>
-                <a href="<?php echo base_url() ?>index.php/user" class="small-box-footer">Info Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?php echo base_url() ?>user" class="small-box-footer">Info Selengkapnya <i class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div><!-- ./col -->
         <div class="col-lg-3 col-xs-6">

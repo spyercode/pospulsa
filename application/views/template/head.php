@@ -6,6 +6,7 @@
   <script src="<?php echo base_url('assets/js/jquery.min.js') ?>" type="text/javascript"></script>
   <script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>" type="text/javascript"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
   <!-- CSS AdminLTE -->
   <!-- Bootstrap 3.3.2 -->
         <link href="<?php echo base_url('assets/AdminLTE-2.0.5/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet" type="text/css" />
@@ -34,7 +35,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <div class="navbar-form navbar-right">
-        <a href="<?php echo base_url() ?>index.php/transaksi" type="button" class="btn btn-success"><i class="badge"></i>Transaksi</a>
+        <a href="<?php echo base_url() ?>transaksi" type="button" class="btn btn-success"><i class="badge"></i>Transaksi</a>
         <a href="<?php echo site_url('authentication/auth/logout'); ?>" type="submit" class="btn btn-danger"><i class="fa fa-sign-out"></i> Logout</a>
           </div>
       </div>
