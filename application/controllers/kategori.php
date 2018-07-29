@@ -10,7 +10,17 @@ class Kategori  extends CI_Controller{
 		$data['record']= $this->model_kategori->tampilkan_data();
 		$this->load->view('kategori/lihat_data',$data);
 	}
-	
+        
+        function cari(){
+            if (isset($_POST['submit'])) {
+                $cari= $this->input->post('cari');
+                $data['record']=$this->db->query("SELECT * FROM `kategori` WHERE nama_kategori='$cari'");
+                $this->load->view('kategori/lihat_data',$data);
+            }else{
+                
+            }
+        }
+                
 
 	function post()
 	{

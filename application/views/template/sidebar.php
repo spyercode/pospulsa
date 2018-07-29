@@ -17,9 +17,9 @@
             </div>
               <!-- Akhir User Panel-->
               <a href="<?php echo base_url() ?>index.php/" class="list-group-item"><i class="fa fa-dashboard"></i> Dashboard</a>
-              <a href="<?php echo base_url() ?>index.php/transaksi" class="list-group-item"><i class="fa fa-money"></i> Transaksi</a>
-              <a href="<?php echo base_url() ?>index.php/pembelian" class="list-group-item"><i class="fa fa-cart-plus"></i> Pembelian</a>
-              <a href="<?php echo base_url() ?>index.php/laporan" class="list-group-item"><i class="fa fa-file"></i> Laporan</a>
-              <a href="<?php echo base_url() ?>index.php/biling" class="list-group-item active" style="text-align: center;background-color: blue;border-color: black" target="_blank" rel="nofollow" title="bilinguser">Form Pembeli</a>
+              <a href="<?php echo base_url() ?>transaksi" class="list-group-item"><i class="fa fa-money"></i> Transaksi</a>
+              <a href="<?php echo base_url() ?>pembelian" class="list-group-item"><i class="fa fa-cart-plus"></i> Pembelian</a>
+              <a href="<?php echo base_url() ?>laporan" class="list-group-item"><i class="fa fa-file"></i> Laporan</a>
+              <a href="<?php echo base_url() ?>biling" class="list-group-item active" style="text-align: center;background-color: blue;border-color: black" target="_blank" rel="nofollow" title="bilinguser">Form Pembeli</a>
             </div>
         </div>

@@ -21,13 +21,17 @@
 
               <!-- Akhir User Panel-->
               <a href="<?php echo base_url() ?>index.php/" class="list-group-item"><i class="fa fa-dashboard"></i> Dashboard</a>
-              <a href="<?php echo base_url() ?>index.php/transaksi" class="list-group-item"><i class="fa fa-money"></i> Transaksi</a>
-              <a href="<?php echo base_url() ?>index.php/pembelian" class="list-group-item"><i class="fa fa-cart-plus"></i> Pembelian</a>
-              <a href="<?php echo base_url() ?>index.php/kategori" class="list-group-item"><i class="fa fa-folder"></i> Kategori</a>
-              <a href="<?php echo base_url() ?>index.php/nominal" class="list-group-item"><i class="fa fa-folder"></i> Nominal</a>
-              <a href="<?php echo base_url() ?>index.php/proveder" class="list-group-item"><i class="fa fa-folder"></i> Provider</a>
-              <a href="<?php echo base_url() ?>index.php/user" class="list-group-item"><i class="fa fa-user-secret"></i> User</a>
-              <a href="<?php echo base_url() ?>index.php/laporan" class="list-group-item"><i class="fa fa-file"></i> Laporan</a>
-              <a href="<?php echo base_url() ?>index.php/biling" class="list-group-item active" style="text-align: center;background-color: blue;border-color: black" target="_blank" rel="nofollow" title="bilinguser">Form Pembeli</a>
+              <a href="<?php echo base_url() ?>transaksi" class="list-group-item"><i class="fa fa-money"></i> Transaksi</a>
+              <a href="<?php echo base_url() ?>pembelian" class="list-group-item"><i class="fa fa-cart-plus"></i> Pembelian</a>
+              <a href="<?php echo base_url() ?>kategori" class="list-group-item"><i class="fa fa-folder"></i> Kategori</a>
+              <a href="<?php echo base_url() ?>nominal" class="list-group-item"><i class="fa fa-folder"></i> Nominal</a>
+              <a href="<?php echo base_url() ?>proveder" class="list-group-item"><i class="fa fa-folder"></i> Provider</a>
+              <a href="<?php echo base_url() ?>user"    class="list-group-item"><i class="fa fa-user-secret"></i> User</a>
+              <a href="<?php echo base_url() ?>laporan" class="list-group-item"><i class="fa fa-money"></i> Laporan Penjualan</a>
+              <a href="<?php echo base_url() ?>laporan_pembelian" class="list-group-item"><i class="fa fa-circle"></i> Laporan Pembelian</a>
+              <a href="<?php echo base_url() ?>laporan_stok" class="list-group-item"><i class="fa fa-bank"></i> Laporan Stok pulsa</a>
+              <a href="<?php echo base_url() ?>laporan_profit" class="list-group-item"><i class="fa fa-paypal"></i> Laporan Profit</a>
+               
+              <a href="<?php echo base_url() ?>biling" class="list-group-item active" style="text-align: center;background-color: blue;border-color: black" target="_blank" rel="nofollow" title="bilinguser">Form Pembeli</a>
             </div>
         </div>
